@@ -1,16 +1,27 @@
 {
-  "name": "Virtual-currency",
+  "name": "virtual-currency",
   "version": "1.0.0",
-  "description": "Virtual-currency",
+  "description": "A project description",
   "main": "main.js",
   "scripts": {
-    "dev": "npm run dev",
-    "build": "npm run build"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "author": "Virtual-currency",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-i18n": "^8.15.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
   }
 }
