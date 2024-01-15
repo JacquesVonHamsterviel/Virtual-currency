@@ -2,7 +2,7 @@
   "name": "virtual-currency",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "main": "main.js",
+  "main": "../main.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
