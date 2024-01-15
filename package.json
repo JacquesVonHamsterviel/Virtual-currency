@@ -1,0 +1,20 @@
+{
+  "name": "Virtual-currency",
+  "version": "1.0.0",
+  "description": "Virtual-currency",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npm run dev:h5",
+    "build": "npm run build:h5"
+  },
+  "author": "Virtual-currency",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.15.3",
+    // 其他依赖...
+  },
+  "devDependencies": {
+    // 开发依赖...
+  }
+}
